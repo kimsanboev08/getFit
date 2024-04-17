@@ -130,14 +130,14 @@ header {
 }
 
 .info-carousel {
-    margin: 60px;
+    margin: 60px 60px 30px 60px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 35vw;
 }
 
-.community-left { 
+.community-left {
     background-image: url('assets/images/community-left.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -187,6 +187,18 @@ header {
     transition-duration: 0.4s; 
 }
 
+
+.carousel-status-bar {
+    margin: 0 480px;
+    background: -webkit-linear-gradient(left, white 0% 25%, white 25% 50%, white 50% 75%, black 75%);
+    height: 0.2vw;
+    transition-duration: 10s; 
+}
+
+.carousel-status-bar:hover {
+    /*background-image: linear-gradient(to right, white 0% 25%, white 25% 50%, black 50% 75%, white 75%);*/
+    background: -webkit-linear-gradient(left, white 0% 25%, white 25% 50%, black 50% 75%, white 75%);
+}
 /*
 .action-section {
     background-color: #9EB0B3;
@@ -195,7 +207,7 @@ header {
 }
 */
 .invest-section {
-    margin: 20px 60px;
+    margin: 20px 60px 60px 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
