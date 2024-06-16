@@ -1,0 +1,17 @@
+header p {
+    text-align: center;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
